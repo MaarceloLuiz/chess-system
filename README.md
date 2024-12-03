@@ -17,8 +17,14 @@ among others that were not listed.
 # clone repository
 git clone https://github.com/MaarceloLuiz/chess-system.git
 
+# enter the src directory
+cd chess-system/src
+
+# compile the Java files
+javac -d ../bin application/Program.java
+
 # enter the bin folder
-cd bin
+cd ../bin
 
 # execute the project
 java application/Program
