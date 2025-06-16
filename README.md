@@ -12,7 +12,19 @@ This project was made in order to improve my OOP studying, so important concepts
 among others that were not listed.
 
 ## How to Play
+## Option 1 (Recommended):
+```bash
+# clone the repo
+git clone https://github.com/MaarceloLuiz/chess-system.git
+cd chess-system
 
+# build and run the Dockerfile
+docker build -t chess-system .
+docker run -it chess-system
+
+```
+
+## Option 2:
 ```bash
 # clone repository
 git clone https://github.com/MaarceloLuiz/chess-system.git
@@ -29,8 +41,10 @@ cd ../bin
 # execute the project
 java application/Program
 
-#The expected result should be as shown in the image below: 
 ```
+
+## The expected result should be as shown in the image below: 
+
 ![chessgamescreenshot](https://github.com/MaarceloLuiz/chess-system/assets/117950222/2e2c45d7-828b-4110-934f-ec1e3e6cbae1)
 
 ## Important Notes
